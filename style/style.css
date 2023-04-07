@@ -1,18 +1,22 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background: #151515;
   color: #ff8c42;
+  font-family: "Quicksand", sans-serif;
 }
 
+/* HOME */
 .home {
   width: 100%;
   height: 1080px;
 }
 
+/* navbar */
 .home__nav {
   width: 100%;
   height: 80px;
@@ -20,18 +24,18 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.home__navLogo{
-    width: 227px;
-    display: flex;
-    justify-content: center;
+
+.home__navLogo {
+  width: 227px;
+  display: flex;
+  justify-content: center;
 }
 
-.home__navLogo img{
-    width: 46px;
-height: 45.45px;
-margin-right: 6px;
-margin-top: 8px;
-
+.home__navLogo img {
+  width: 46px;
+  height: 45.45px;
+  margin-right: 6px;
+  margin-top: 8px;
 }
 
 .home__navLogo h3 {
@@ -48,12 +52,101 @@ margin-top: 8px;
   list-style: none;
 }
 
-.home__nav li a{
+.home__nav li a {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   text-align: center;
   text-decoration: none;
   color: #ff8c42;
-
 }
+
+/* home main */
+
+.home__info {
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__infoText {
+  width: 40%;
+  margin-left: 85px;
+}
+
+.home__infoText h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 120px;
+}
+
+.home__infoText p {
+  margin: 72px 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.home__infoText-inp input[type="text"] {
+  height: 48px;
+  width: 285px;
+  border: 4px solid #ff8c42;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.home__infoText-inpBtn {
+  height: 48px;
+  width: 198px;
+  background: #ff8c42;
+  border: 4px solid #ff8c42;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.home__infoText-inpBtn:hover {
+  transition: transform 0.5s;
+  transform: scale(1.02);
+}
+
+.home__infoText-btn {
+  margin-top: 72px;
+  width: 191px;
+  height: 68px;
+  background: #ff8c42;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.home__infoText-btn:hover {
+  transition: transform 0.5s;
+  transform: scale(1.02);
+}
+
+.home__img {
+  width: 60%;
+}
+
+.home__img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* MENU */

@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
@@ -16,27 +22,37 @@
           <h3>mania</h3>
         </div>
         <ul>
-          <li><a href="/">Home</a> </li>
-          <li><a href="/">Menu</a> </li>
-          <li><a href="/">Specials & Coupons</a> </li>
-          <li><a href="/">Contact Us</a> </li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Menu</a></li>
+          <li><a href="/">Specials & Coupons</a></li>
+          <li><a href="/">Contact Us</a></li>
         </ul>
       </nav>
       <div class="home__info">
-        <h1>Pizza family</h1>
-        <p>
-          People Disappoint,
-          <br />
-          But Pizza Never Does.
-        </p>
-        <div>
-          <input type="text" />
-          <input type="button" value="Search location" />
+        <div class="home__infoText">
+          <h1>Pizza family</h1>
+          <p>
+            People Disappoint,
+            <br />
+            But Pizza Never Does.
+          </p>
+          <div class="home__infoText-inp">
+            <input type="text" />
+            <input
+              type="button"
+              class="home__infoText-inpBtn"
+              value="Search location"
+            />
+          </div>
+          <button class="home__infoText-btn">Try now</button>
         </div>
-        <button>Try now</button>
+        <div class="home__img">
+          <img src="img/Home_Pizza.png" alt="Pizza" />
+        </div>
       </div>
-      <div class="home__img"></div>
     </div>
+
+    <!-- MENU -->
 
     <script src="src/main.js"></script>
   </body>
