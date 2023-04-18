@@ -304,3 +304,107 @@ body {
   text-align: center;
   color: #ffddc8;
 }
+
+/* PIZZA OF THE MONTH */
+
+.monthPizza {
+  width: 100%;
+  height: 1080px;
+  padding-top: 132px;
+  position: relative;
+}
+
+.monthPizza h2,
+.monthPizza p {
+  margin-left: 148px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: left;
+  letter-spacing: 0.085em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.monthPizza p {
+  margin-left: 204px;
+  margin-bottom: 16px;
+}
+
+.monthPizza h2 span {
+  color: #ff8c42;
+}
+
+.monthPizza p span {
+  font-size: 96px;
+  line-height: 120px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+  color: #ff8c42;
+}
+
+.monthPizza__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.monthPizza__wrapper-img {
+  width: 851px;
+  height: 771.93px;
+}
+
+.monthPizza__wrapper-line {
+  position: absolute;
+  top: 132px;
+  left: 56%;
+  height: 976px;
+  width: 1890px;
+  border-left: 21px solid #ff8c42;
+  transform: skew(-30deg);
+}
+
+.monthPizza__wrapper-menuList {
+  margin-left: 15px;
+  transform: skew(-30deg);
+}
+
+.monthPizza__wrapper-menu li {
+  transform: skew(30deg);
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.085em;
+  text-transform: capitalize;
+  color: #ffddc8;
+  margin-top: 38px;
+}
+
+.monthPizza__wrapper-menuBtns {
+  margin-top: 121px;
+  margin-right: 274px;
+  width: 515px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.monthPizza__wrapper-menuBtns button {
+  width: 201px;
+  height: 60px;
+  background: #ff8c42;
+  border-radius: 5px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
