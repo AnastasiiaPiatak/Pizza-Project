@@ -410,6 +410,139 @@ body {
 }
 
 /* RESERVATION */
-.reservation{
-  
+.reservation {
+  height: 1080px;
+  width: 100%;
+  position: relative;
+}
+
+.reservation__bg .clover {
+  position: absolute;
+  left: 0;
+  top: 37px;
+}
+
+.reservation__bg .pepper {
+  position: absolute;
+  left: 544px;
+  top: 37px;
+}
+
+.reservation__bg .paprica {
+  position: absolute;
+  bottom: 0;
+  left: 568px;
+}
+
+.reservation__bg .salad {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.reservation__form-wrapper
+ {
+  box-sizing: border-box;
+  position: absolute;
+  width: 626px;
+  height: 926.14px;
+  right: 141px;
+  top: 77px;
+  background: rgba(255, 255, 255, 0.05);
+  border-width: 3px 1px 1px 3px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+}
+
+.form__header {
+  margin-top: 38px;
+  margin-bottom: 7px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+  color: #dddddd;
+}
+
+.form p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.form p:nth-child(2) {
+  margin-bottom: 7px;
+}
+
+.form__inputs {
+  margin-top: 204px;
+  margin-bottom: 76px;
+}
+
+.form__inputs div {
+  margin: 37px auto 0 auto;
+  width: 424px;
+}
+
+.form__inputs span {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.form__inputs input[type="text"] {
+  width: 75%;
+  background-color: transparent;
+  padding-left: 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px dashed white;
+}
+
+.form__inputs .form__quantity input {
+  width: 52%;
+}
+
+.form__inputs .form__time input {
+  width: 60%;
+}
+
+.form__btn{
+  display: flex;
+  justify-content: center;
+}
+
+.form__btn input {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+
+  width: 155px;
+  height: 42px;
+  background: #ff8c42;
+  border-radius: 5px;
 }

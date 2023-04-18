@@ -163,19 +163,19 @@
     <!-- RESERVATION -->
     <div class="reservation">
       <div class="reservation__bg">
-        <img src="img/Clover.png" alt="">
+        <img src="img/Clover.png" class="clover" alt="">
         <div>
-          <img src="img/Capcicum.png" alt="">
-          <img src="img/Haldi.png" alt="">
+          <img src="img/Capcicum.png" class="pepper" alt="">
+          <img src="img/Haldi.png" class="paprica" alt="">
         </div>
-<img src="img/Gobi.png" alt="">
+<img src="img/Gobi.png" class="salad" alt="">
       </div>
         <div class="reservation__form-wrapper">
           <form class="form" action="">
             <div class="form__header">Reservation</div>
             <p>Book online or give us a call on +91 1111 222 333</p>
             <p>Between 9:30 am - 10:00 pm</p>
-
+<div class="form__inputs">
         <div class="form__name">
           <span>Name:</span>
           <input
@@ -186,7 +186,7 @@
             minlength="5"
           />
         </div>
-        <div class="form__adress">
+        <div class="form__mail">
           <span>E-mail:</span>
           <input
             type="text"
@@ -194,8 +194,8 @@
             autocomplete="off"
             required
             minlength="5"
-          />
-          <div class="form__adress">
+          /></div>
+          <div class="form__quantity">
           <span>People Number:</span>
           <input
             type="text"
@@ -203,8 +203,9 @@
             autocomplete="off"
             required
             minlength="1"
-          />
-          <div class="form__adress">
+          /></div>
+
+          <div class="form__time">
           <span>Data & Time:</span>
           <input
             type="text"
@@ -214,6 +215,7 @@
             minlength="5"
           />
         </div>
+      </div>
         <div class="form__btn">
           <input type="submit" value="Send Mail" id="sendMail" />
         </div>
