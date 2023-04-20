@@ -881,9 +881,13 @@ body {
   margin-top: 55px;
 }
 
-.order__main-cartOrder-discount {
-  display: flex;
+.order__main-cart{
+  margin-top: 100px;
 }
+
+/* .order__main-cartOrder-discount {
+  display: flex;
+} */
 
 .order__main-cartOrder-discount p {
   font-family: "Quicksand";
@@ -914,7 +918,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  margin-left: 30px;
+  margin-top: 20px;
 }
 
 /* checkbox */
@@ -933,15 +937,21 @@ body {
 
 .ingredients__list {
   list-style-type: none;
+  display: flex;
+}
+
+.ingredients__list div{
+  margin-right: 10px;
 }
 
 .ingredients__list li {
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .ingredients__list label {
-  font-size: 20px;
+  font-size: 18px;
   color: #ff8c42;
   font-weight: 400;
   cursor: pointer;
