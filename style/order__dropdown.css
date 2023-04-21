@@ -1,0 +1,65 @@
+/* dropdown */
+.order__main-cartOrder-dropdown,
+.order__main-cartOrder-size {
+  width: 300px;
+  margin: 50px 0;
+}
+
+.order__main-cartOrder-dropdown.active .options,
+.active .size__options {
+  display: block;
+}
+
+.select__btn,
+.size__select-btn {
+  display: flex;
+  height: 55px;
+  background-color: transparent;
+  border: 1px solid #ff8c42;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.fa-chevron-down {
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.active .fa-chevron-down {
+  transform: rotate(-180deg);
+}
+
+.options,
+.size__options {
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #333;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.options li,
+.size__options li {
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background-color: #333;
+  font-size: 18px;
+  color: #ff8c42;
+}
+
+.options li:hover,
+.size__options li:hover {
+  background-color: #ffffff;
+}

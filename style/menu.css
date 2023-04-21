@@ -1,0 +1,155 @@
+/* MENU */
+
+.menu {
+  width: 100%;
+  position: relative;
+}
+
+.menu h2 {
+  font-family: "Kaushan Script", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 152px;
+  line-height: 221px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ff8c42;
+}
+
+.menu__block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__block-img {
+  width: 25%;
+}
+
+.menu__block-img img {
+  position: absolute;
+  left: 0;
+}
+
+.menu__block-items {
+  width: 37%;
+}
+
+.menu__block-items h5 {
+  font-family: "Kosugi", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #ffddc8;
+}
+
+.menu__block-items h5:nth-child(1) {
+  margin-bottom: 65px;
+}
+
+.menu__block-items ul {
+  margin-bottom: 40px;
+}
+
+.menu__block-items li {
+  width: 640px;
+  height: 53px;
+  font-family: "Kosugi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #ffddc8;
+}
+
+.menu__block-gourmet {
+  width: 37%;
+}
+
+.menu__block-gourmetWrapper {
+  display: flex;
+}
+
+.menu__block-gourmetWrapper-text {
+  width: 346px;
+  height: 135px;
+  margin-bottom: 20px;
+}
+
+.menu__block-gourmetWrapper-price {
+  width: 175px;
+  height: 45px;
+  font-family: "Kosugi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffddc8;
+}
+
+.menu__block-gourmet h5 {
+  margin-bottom: 65px;
+  font-family: "Kosugi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffddc8;
+}
+
+.menu__block-gourmet p:nth-child(1) {
+  font-family: "Kosugi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #ffddc8;
+}
+
+.menu__block-gourmet p:nth-child(2) {
+  width: 346px;
+  height: 96px;
+  font-family: "Kosugi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 137.5%;
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+  color: #ffddc8;
+}
+
+.menu__btn {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.menu__btn button {
+  width: 247px;
+  height: 64px;
+  background: #ff8c42;
+  border-radius: 5px;
+  font-family: "Kosugi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffddc8;
+}

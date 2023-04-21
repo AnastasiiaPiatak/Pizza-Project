@@ -1,0 +1,36 @@
+/* checkbox */
+
+.ingredients__checkbox {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ingredients__list input[type="checkbox"] {
+  accent-color: #f35429;
+}
+
+.ingredients__list {
+  list-style-type: none;
+  display: flex;
+}
+
+.ingredients__list div {
+  margin-right: 10px;
+}
+
+.ingredients__list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.ingredients__list label {
+  font-size: 18px;
+  color: #ff8c42;
+  font-weight: 400;
+  cursor: pointer;
+  margin-left: 10px;
+}

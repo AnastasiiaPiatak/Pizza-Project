@@ -1,0 +1,132 @@
+/* ORDER */
+
+.order__header {
+  width: 100%;
+  height: 129px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: space-between;
+}
+
+.order__header-logo {
+  display: flex;
+  width: 227px;
+  justify-content: center;
+  align-items: center;
+}
+
+.order__header-logo h3 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.order__header-logo img {
+  width: 46px;
+  height: 46px;
+  margin-right: 6px;
+  margin-top: 8px;
+}
+
+.order__header ul {
+  list-style-type: none;
+  width: 331px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-right: 183px;
+}
+
+.order__header li {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.order__main-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.order__main-cartHeader {
+  display: flex;
+  align-items: center;
+}
+
+.order__main-cartHeader div {
+  margin-left: 15px;
+}
+
+.order__main-cartHeader h5 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.order__main-cartHeader p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.order__maincartOrder-ingredients {
+  margin-top: 30px;
+}
+
+.ingredients__title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.order__main-cartOrder {
+  margin-top: 55px;
+}
+
+.order__main-cart {
+  width: 30%;
+  margin-top: 100px;
+}
+
+.order__main-cartOrder-discount p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff8c42;
+}
+
+.order__main-cartOrder-discount span {
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.order__main-cartOrder-discount button {
+  background: #ff8c42;
+  border: none;
+  border-radius: 5px;
+  width: 125px;
+  height: 35px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+}

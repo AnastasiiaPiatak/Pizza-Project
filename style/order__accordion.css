@@ -1,0 +1,140 @@
+/* accordion */
+.wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.accordion {
+  width: 450px;
+}
+
+.accordion__wrapper {
+  height: 186px;
+  background: rgba(255, 255, 255, 0.2);
+  border-width: 2px 0px 0px 2px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(1px);
+  border-radius: 5px;
+  margin-top: 70px;
+}
+
+.accordion__item {
+  padding: 15px;
+  position: relative;
+  text-align: justify;
+  cursor: pointer;
+}
+
+.accordion__item h5 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.accordion__item img {
+  position: absolute;
+  top: 70px;
+  left: -40px;
+}
+
+.accordion__text {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  /* display: block; */
+  height: 125px;
+  transition: 1s;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.accordion__text p {
+  margin-bottom: 10px;
+}
+
+.accordion__item span {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 20px;
+  transition: 1s;
+}
+
+.rotate90 {
+  transform: rotate(90deg);
+  transition: 1s;
+}
+
+.hidden {
+  /* display: none; */
+  height: 0px;
+  overflow: hidden;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: white;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #ff8c42;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}

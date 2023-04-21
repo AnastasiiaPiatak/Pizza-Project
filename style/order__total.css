@@ -1,0 +1,65 @@
+/* total */
+.order__maincartOrder-total {
+  width: 30%;
+  margin-top: 100px;
+  width: 465px;
+  height: 775px;
+  background: rgba(255, 255, 255, 0.2);
+  border-width: 2px 0px 0px 2px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2.5px);
+  border-radius: 5px;
+}
+
+.order__maincartOrder-total h5 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+  color: #ff8c42;
+  margin: 20px;
+}
+
+.order__maincartOrder-total div {
+  margin: 45px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15px;
+  width: 75%;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.line {
+  border-bottom: 2px solid #747474;
+}
+
+.line-black {
+  border-bottom: 2px solid #000000;
+}
+
+.order__maincartOrder-totalDiscount {
+  color: #28f83d;
+}
+
+.order__maincartOrder-totalTax {
+  color: #000000;
+}
+
+.order__maincartOrder-totalPay {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
